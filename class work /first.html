@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            font-size: 16px ;
+            color : black ; 
+        }
+    </style>
+</head>
+<body>
+    <h2>change  the paragraph  style  Dynamically </h2>
+    
+    <p id="para" >This para gone be cracy </p>
+    <button onclick="changedynamic()">hello click mff </button>
+
+
+    <script>
+  function changedynamic(){
+   var para = document.getElementById("para") ;
+   para.style.fontSize = "24px";
+   para.style.color = "red";
+  }
+    </script>
+</body>
+</html>
